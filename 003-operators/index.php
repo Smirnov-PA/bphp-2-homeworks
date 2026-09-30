@@ -1,8 +1,13 @@
 <?php
 
-$name = 'иван';
-$surname = 'иванов';
-$patronymic = 'иванович';
+echo "Введите фамилию: ";
+$surname = trim(fgets(STDIN));
+
+echo "Введите имя: ";
+$name = trim(fgets(STDIN));
+
+echo "Введите отчество: ";
+$patronymic = trim(fgets(STDIN));
 
 $fullName = mb_convert_case($surname, MB_CASE_TITLE, 'UTF-8') . ' '
            . mb_convert_case($name, MB_CASE_TITLE, 'UTF-8') . ' '
