@@ -16,7 +16,7 @@ if (is_null($variable)) {
     $type = 'other';
 }
 
-echo "инструкция if-elseif: type is $type" . PHP_EOL;
+echo "type is $type" . PHP_EOL;
 
 // дополнительное задание
 
@@ -42,6 +42,6 @@ switch (true) {
         $type = 'other';
 }
 
-echo "инструкция switch: type is $type" . PHP_EOL;
+echo "type is $type" . PHP_EOL;
 
 ?>
